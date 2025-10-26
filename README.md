@@ -126,3 +126,5 @@ percentage of the total.
 * For production use consider adding input validation, authentication and
   more robust logging.  The current implementation focuses on clarity and
   the core requirements of the challenge.
+
+ 
