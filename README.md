@@ -33,6 +33,9 @@ csv-json-converter-api/
 ├── package.json       # Project manifest with dependencies and scripts
 ├── README.md          # This file
 └── src
+    ├─images
+    | ├── age_distribution_api.png
+    │ └── load_api_png
     ├── app.js         # Entry point: sets up Express and routes
     ├── config
     │   ├── db.js      # PostgreSQL connection pool
@@ -127,4 +130,8 @@ percentage of the total.
   more robust logging.  The current implementation focuses on clarity and
   the core requirements of the challenge.
 
- 
+## Postman response images 
+ ![age distribution API](https://github.com/DhruvBharwada/CSV_TO_JSON/blob/eaad4fb03ecbdea398f34cc9da846c8854c12ff4/images/age_distribution_api.png)
+
+
+![Load API](https://github.com/DhruvBharwada/CSV_TO_JSON/blob/eaad4fb03ecbdea398f34cc9da846c8854c12ff4/images/load_api.png)
