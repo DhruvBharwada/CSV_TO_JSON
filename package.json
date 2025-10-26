@@ -1,0 +1,23 @@
+{
+  "name": "csv-json-converter-api",
+  "version": "1.0.0",
+  "description": "A simple and performant CSV to JSON converter API that loads data into PostgreSQL and reports age distributions.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "keywords": [
+    "csv",
+    "json",
+    "express",
+    "postgres",
+    "converter"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "pg": "^8.9.0"
+  }
+}
